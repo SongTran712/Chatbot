@@ -16,6 +16,7 @@ Mở terminal: ollama pull llama3.2:1b
 cd webapp
 docker compose up --build
 cd frontend
+npm install
 npm run dev
 cd ../backend
 pip install -r requirements.txt
